@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setApplicationName("剪贴板历史分析器 - " PROJECT_VERSION);
+    a.setApplicationName("剪贴板历史分析工具 - v" PROJECT_VERSION);
 
     MainWindow wm;
     wm.show();
