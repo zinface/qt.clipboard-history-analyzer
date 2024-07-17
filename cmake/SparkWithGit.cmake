@@ -109,9 +109,9 @@ macro(spark_initialize_modules)
         # SparkExternalProject.cmake
 
         # SparkTranslatorConfig.cmake
-        # SparkInstallMacrosConfig.cmake
+        SparkInstallMacrosConfig.cmake
         # SparkBuildGraphviz.cmake
-        # SparkDesktopMacros.cmake
+        SparkDesktopMacros.cmake
         # SparkDebPackageConfig.cmake
         # SparkAppimageConfig.cmake
         # SparkParasiticBuild.cmake
