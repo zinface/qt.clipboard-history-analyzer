@@ -26,7 +26,7 @@ void HistoryItem::setText(const QString &newText)
     setType(Text);
 
     ui->lab_type->setText("文本");
-    ui->lab_time->setText(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm::ss"));
+    ui->lab_time->setText(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss"));
 }
 
 QPixmap HistoryItem::image() const
@@ -40,7 +40,7 @@ void HistoryItem::setImage(const QPixmap &newImage)
     setType(Image);
 
     ui->lab_type->setText("图片");
-    ui->lab_time->setText(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm::ss"));
+    ui->lab_time->setText(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss"));
 }
 
 HistoryItem::HistoryType HistoryItem::type() const
