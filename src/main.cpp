@@ -11,11 +11,11 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setApplicationName("基本 QT 程序框架 - " PROJECT_VERSION);
-    
+    a.setApplicationName("剪贴板历史分析器 - " PROJECT_VERSION);
+
     MainWindow wm;
     wm.show();
-   
+
     ScreenUtil::moveCenterForCursor(wm);
 
     return a.exec();
