@@ -7,7 +7,7 @@ project(clipboard-history-analyzer LANGUAGES CXX VERSION 0.0.1)
 spark_initialize_modules()
 
 # 资源文件路径
-set(QRC_SOURCES "")
+set(QRC_SOURCES "res/res.qrc")
 
 spark_add_executable_path(${PROJECT_NAME} 
     src

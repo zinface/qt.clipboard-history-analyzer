@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 {
     ui->setupUi(this);
 
+    setWindowIcon(QIcon(":/icon.png"));
+
     connect(qApp->clipboard(), &QClipboard::dataChanged, this, &MainWindow::slot_dataChanged);
     connect(ui->c_text, &QCheckBox::clicked, this, &MainWindow::recheck);
     connect(ui->c_image, &QCheckBox::clicked, this, &MainWindow::recheck);
