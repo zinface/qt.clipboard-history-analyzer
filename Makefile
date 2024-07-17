@@ -7,7 +7,7 @@ ifneq ("$(OSID)", "")
 SUFFIX=_$(OSID)$(OSRELEASE)
 endif
 
-PROJECT_NAME=template
+PROJECT_NAME=clipboard-history-analyzer
 
 all:
 	mkdir -p build

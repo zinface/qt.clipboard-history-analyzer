@@ -57,3 +57,5 @@ spark_install_file(/opt/apps/com.gitee.zinface.clipboard-history-analyzer/icon
 # 安装目标
 spark_install_target(/opt/apps/com.gitee.zinface.clipboard-history-analyzer/bin 
     clipboard-history-analyzer)
+
+add_package_descript(cmake/spark-deb-package.descript)
